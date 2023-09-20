@@ -1,0 +1,79 @@
+{
+    "operaciones": [
+        {
+            "operacion": "suma",
+            "valor1": 10,
+            "valor2": [
+                {
+                    "operacion": "resta",
+                    "valor1": 15,
+                    "valor2": [
+                        {
+                            "operacion": "multiplicacion",
+                            "valor1": 2,
+                            "valor2": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "operacion": "division",
+            "valor1": [
+                {
+                    "operacion": "potencia",
+                    "valor1": 2,
+                    "valor2": 3
+                }
+            ],
+            "valor2": [
+                {
+                    "operacion": "raiz",
+                    "valor1": 9,
+                    "valor2": 2
+                }
+            ]
+        },
+        {
+            "operacion": "mod",
+            "valor1": 10,
+            "valor2": 3
+        },
+        {
+            "operacion": "inverso",
+            "valor1": 5
+        },
+        {
+            "operacion": "seno",
+            "valor1": [
+                {
+                    "operacion": "suma",
+                    "valor1": 30,
+                    "valor2": 15
+                }
+            ]
+        },
+        {
+            "operacion": "coseno",
+            "valor1": 60
+        },
+        {
+            "operacion": "tangente",
+            "valor1": [
+                {
+                    "operacion": "resta",
+                    "valor1": 90,
+                    "valor2": 30
+                }
+            ]
+        }
+    ],
+    "configuraciones": [
+        {
+            "texto": "Operaciones Complejas",
+            "fondo": "verde",
+            "fuente": "negro",
+            "forma": "rectangulo"
+        }
+    ]
+}

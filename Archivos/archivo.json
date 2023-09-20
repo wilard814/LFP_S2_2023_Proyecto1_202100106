@@ -1,0 +1,49 @@
+{
+    "operaciones": [
+        {
+            "operacion": "SumA",
+            "valor1": 4.1,
+            "valor2": 5.2
+        },
+        {
+            "operacion": "resta",
+            "valor1": 4.5,
+            "valor2": [
+                {
+                    "operacion": "potencia",
+                    "valor1": 10,
+                    "valor2": 3
+                }
+            ]
+        },
+        {
+            "operacion": "SumA",
+            "valor1": [
+                {
+                    "operacion": "seno",
+                    "valor1": 90
+                }
+            ],
+            "valor2": 5.32
+        },
+        {
+            "operacion": "multiplicacion",
+            "valor1": 15,
+            "valor2": 5
+        },
+        {
+            "operacion": "division",
+            "valor1": 15,
+            "valor2": 2
+        }
+    ],
+    "configuraciones": [
+        {
+            "texto": "kalinpajin",
+            "fondo": "rojo",
+            "fuente": "verde",
+            "forma": "ovalo"
+        }
+    ]
+}
+

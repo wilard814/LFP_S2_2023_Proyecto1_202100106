@@ -208,6 +208,7 @@ class Ventana(tk.Tk):
 
 
     def analizar_texto(self):
+        limpiar_errores()
         text = self.scroll.get(1.0, tk.END).strip() 
         if not text:
             messagebox.showwarning("Advertencia", "El cuadro de texto está vacío. Por favor ingrese datos para analizar.")
@@ -222,7 +223,6 @@ class Ventana(tk.Tk):
         else:
             cantidad_errores = len(errores_lexicos)
             messagebox.showerror("Error", f"Se encontraron {cantidad_errores} errores en el análisis. Revise el reporte de errores.")
-            generar_reporte_errores()
         # Mostrar mensajes de depuración en una ventana emergente
         if debug_msgs:
             debug_str = '\n'.join(debug_msgs)
@@ -234,15 +234,16 @@ class Ventana(tk.Tk):
             messagebox.showerror("Error", "No hay errores, el texto está libre de errores o no se ha cargado un archivo")
             return
         else:
-            # Paso 1: Generar el reporte de errores
+            debug_messages.clear()
+            #Generar el reporte de errores
             nombre_archivo = "RESULTADOS_202100106.json"
             generar_reporte_errores(nombre_archivo)
-            
-            # Paso 2: Leer el contenido del archivo JSON
+        
+            # Leer el contenido del archivo JSON
             with open(nombre_archivo, "r") as f:
                 contenido_json = f.read()
             
-            # Paso 3: Mostrar el contenido en una nueva ventana emergente
+            # Mostrar el contenido en una nueva ventana emergente
             ventana_errores = tk.Toplevel(self)
             ventana_errores.title("Reporte de Errores")
             ventana_errores.geometry("600x400")
@@ -261,9 +262,7 @@ class Ventana(tk.Tk):
             messagebox.showinfo("Info", "Se ha generado el reporte de errores")
 
     def mostrar_reporte(self):
-        global arbol  # Asumiendo que arbol es una variable global
-
-        # Verificar si el árbol tiene contenido y si el objeto dot tiene contenido en su cuerpo (body)
+        global arbol  # Obtener el árbol generado en el análisis
         if arbol and arbol.dot and arbol.dot.body:
             arbol.dot.view("REPORTE_202100106")
         else:

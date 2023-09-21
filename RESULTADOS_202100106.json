@@ -1,0 +1,220 @@
+{
+    "errores": [
+        {
+            "No.": 1,
+            "descripcion": {
+                "lexema": "/",
+                "tipo": "Error lexico",
+                "columna": 26,
+                "fila": 11
+            }
+        },
+        {
+            "No.": 2,
+            "descripcion": {
+                "lexema": "<",
+                "tipo": "Error lexico",
+                "columna": 18,
+                "fila": 17
+            }
+        },
+        {
+            "No.": 3,
+            "descripcion": {
+                "lexema": ">",
+                "tipo": "Error lexico",
+                "columna": 11,
+                "fila": 19
+            }
+        },
+        {
+            "No.": 4,
+            "descripcion": {
+                "lexema": "%",
+                "tipo": "Error lexico",
+                "columna": 14,
+                "fila": 35
+            }
+        },
+        {
+            "No.": 5,
+            "descripcion": {
+                "lexema": "~",
+                "tipo": "Error lexico",
+                "columna": 10,
+                "fila": 46
+            }
+        },
+        {
+            "No.": 6,
+            "descripcion": {
+                "lexema": "!",
+                "tipo": "Error lexico",
+                "columna": 14,
+                "fila": 54
+            }
+        },
+        {
+            "No.": 7,
+            "descripcion": {
+                "lexema": "@",
+                "tipo": "Error lexico",
+                "columna": 11,
+                "fila": 55
+            }
+        },
+        {
+            "No.": 8,
+            "descripcion": {
+                "lexema": "$",
+                "tipo": "Error lexico",
+                "columna": 24,
+                "fila": 58
+            }
+        },
+        {
+            "No.": 9,
+            "descripcion": {
+                "lexema": "/",
+                "tipo": "Error lexico",
+                "columna": 26,
+                "fila": 89
+            }
+        },
+        {
+            "No.": 10,
+            "descripcion": {
+                "lexema": "<",
+                "tipo": "Error lexico",
+                "columna": 18,
+                "fila": 95
+            }
+        },
+        {
+            "No.": 11,
+            "descripcion": {
+                "lexema": ">",
+                "tipo": "Error lexico",
+                "columna": 11,
+                "fila": 97
+            }
+        },
+        {
+            "No.": 12,
+            "descripcion": {
+                "lexema": "%",
+                "tipo": "Error lexico",
+                "columna": 14,
+                "fila": 113
+            }
+        },
+        {
+            "No.": 13,
+            "descripcion": {
+                "lexema": "~",
+                "tipo": "Error lexico",
+                "columna": 10,
+                "fila": 124
+            }
+        },
+        {
+            "No.": 14,
+            "descripcion": {
+                "lexema": "!",
+                "tipo": "Error lexico",
+                "columna": 14,
+                "fila": 132
+            }
+        },
+        {
+            "No.": 15,
+            "descripcion": {
+                "lexema": "@",
+                "tipo": "Error lexico",
+                "columna": 11,
+                "fila": 133
+            }
+        },
+        {
+            "No.": 16,
+            "descripcion": {
+                "lexema": "$",
+                "tipo": "Error lexico",
+                "columna": 24,
+                "fila": 136
+            }
+        },
+        {
+            "No.": 17,
+            "descripcion": {
+                "lexema": "/",
+                "tipo": "Error lexico",
+                "columna": 26,
+                "fila": 167
+            }
+        },
+        {
+            "No.": 18,
+            "descripcion": {
+                "lexema": "<",
+                "tipo": "Error lexico",
+                "columna": 18,
+                "fila": 173
+            }
+        },
+        {
+            "No.": 19,
+            "descripcion": {
+                "lexema": ">",
+                "tipo": "Error lexico",
+                "columna": 11,
+                "fila": 175
+            }
+        },
+        {
+            "No.": 20,
+            "descripcion": {
+                "lexema": "%",
+                "tipo": "Error lexico",
+                "columna": 14,
+                "fila": 191
+            }
+        },
+        {
+            "No.": 21,
+            "descripcion": {
+                "lexema": "~",
+                "tipo": "Error lexico",
+                "columna": 10,
+                "fila": 202
+            }
+        },
+        {
+            "No.": 22,
+            "descripcion": {
+                "lexema": "!",
+                "tipo": "Error lexico",
+                "columna": 14,
+                "fila": 210
+            }
+        },
+        {
+            "No.": 23,
+            "descripcion": {
+                "lexema": "@",
+                "tipo": "Error lexico",
+                "columna": 11,
+                "fila": 211
+            }
+        },
+        {
+            "No.": 24,
+            "descripcion": {
+                "lexema": "$",
+                "tipo": "Error lexico",
+                "columna": 24,
+                "fila": 214
+            }
+        }
+    ]
+}
